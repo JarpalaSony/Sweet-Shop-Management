@@ -55,7 +55,7 @@ export default function HomePage() {
                 // ✅ build image path from backend uploads folder
                 image={
                   sweet.image
-                    ? `http://localhost:5000/uploads/${sweet.image}`
+                    ? `https://sweep-shop-management-backend.onrender.com/uploads/${sweet.image}`
                     : "/placeholder.png"
                 }
                 onEdit={() => navigate(`/edit-sweet/${sweet._id}`)}
