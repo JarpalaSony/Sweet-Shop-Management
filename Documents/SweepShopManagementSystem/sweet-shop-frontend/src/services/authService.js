@@ -1,7 +1,7 @@
 // services/authService.js
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth"; // adjust as needed
+const API_URL = "https://sweep-shop-management-backend.onrender.com/api/auth"; // adjust as needed
 
 // Register
 export const register = async (userData) => {
