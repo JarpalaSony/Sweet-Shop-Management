@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/sweets";
+const API_URL = "https://sweep-shop-management-backend.onrender.com/api/sweets";
 
 // ✅ Get token from localStorage
 const getAuthHeaders = () => {
